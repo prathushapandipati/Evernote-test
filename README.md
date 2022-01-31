@@ -29,12 +29,12 @@ Feature: Evernote app login functionality
   
   Scenario: check login is unsuccessful using an invalid email
   
-    '''
+    ''''
     Given the user is on the login page
     When a user enters the invalid email address
     And user click the continue button
     Then the user should get the notification that the email address is invalid
-    '''
+    ''''
 
   @successful
   Scenario: Check login is successful with valid credentials
