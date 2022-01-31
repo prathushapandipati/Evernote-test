@@ -26,11 +26,15 @@ Revisit the note that is created in step 3, verify and move it to the trash bin
 Feature: Evernote app login functionality
 
   @unsuccessful
+  
   Scenario: check login is unsuccessful using an invalid email
+  
+    '''
     Given the user is on the login page
     When a user enters the invalid email address
     And user click the continue button
     Then the user should get the notification that the email address is invalid
+    '''
 
   @successful
   Scenario: Check login is successful with valid credentials
