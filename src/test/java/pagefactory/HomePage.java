@@ -77,7 +77,7 @@ public class HomePage extends BasePage {
   }
 
   public void clickOnExistingNote() throws InterruptedException {
-    Thread.sleep(7000);
+    Thread.sleep(10000);
     existing_note.click();
     Thread.sleep(3000);
   }
